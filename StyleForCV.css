@@ -1,0 +1,112 @@
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+
+.contacts{
+    width: 100%;
+    border: 1px solid #aaa4aa;
+    position: relative;
+}
+
+.contacts > img{
+    float: left;
+    margin-right: 20px;
+}
+
+.info{
+    margin-left: 250px;
+    overflow: auto
+
+}
+
+#buttonLook{
+    width: 230px;
+    height: 40px;
+    background-color: #1a6eff;
+    color: white;
+    font-size: 14px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#Cont{
+    position: absolute;
+    right: 20px;
+    bottom: 47px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#numCont{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+#numCont + p{
+    margin-bottom: 0;
+}
+
+.greyText{
+    color: #b2b2b2;
+}
+
+
+td {
+    font-size: 16px;
+    width:  110px;
+
+
+}
+
+/* не отрабатывает
+tr:first-child{
+    font-size: 12px;
+}
+*/
+.addCont{
+    border-top: 1px dashed #b2b2b2;
+    height: 40px;
+    clear: both;
+}
+
+h1,h3,h4,table{
+    margin: 0 0 10px 0 ;
+}
+
+h1,h3,h4{
+    float: left;
+}
+
+.penImg{
+    clear: both;
+    margin-left: 0;
+}
+
+#inLink{
+    float: left;
+    height: 100%;
+    margin-top: 12px;
+}
+#inLink a{
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+
+#ConInf{
+    width: 230px;
+    background-color: #aaa4aa;
+    float: right;
+    height: 100%;
+}
+
+.addCont div p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
