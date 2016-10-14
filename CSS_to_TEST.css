@@ -1,0 +1,18 @@
+table{
+	border-collapse: collapse;
+	border: 2px double black;
+	width: 800px; /* Ўирина элемента в пикселах */
+    padding: 10px; /* ѕол€ вокруг текста */
+    margin: auto;
+    text-align: center;
+}
+th { 
+   /* text-align: center; /* ¬ыравнивание по левому краю */
+    background: #ccc; /* ÷вет фона €чеек */
+    padding: 5px; /* ѕол€ вокруг содержимого €чеек */
+    border: 1px solid black; /* √раница вокруг €чеек */
+}
+td { 
+    padding: 5px; /* ѕол€ вокруг содержимого €чеек */
+    border: 1px solid black; /* √раница вокруг €чеек */
+}
