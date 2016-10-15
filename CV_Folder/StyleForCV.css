@@ -1,14 +1,26 @@
-.wrapper {
-    width: 700px;
-    margin: 0 auto;
-    font-family: Arial;
+body {
+    background-color: #E9E9E9;
 }
 
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    font-family: Arial, serif;
+    background-color: #E9E9E9;
+}
+
+.rightCol{
+    float: right;
+    width: 30%;
+    background-color: #ffffff;
+    height: 700px;
+}
 
 .contacts{
-    width: 100%;
+    width: 68%;
     border: 1px solid #aaa4aa;
     position: relative;
+    background-color: #ffffff;
 }
 
 .contacts > img{
@@ -19,7 +31,6 @@
 .info{
     margin-left: 250px;
     overflow: auto
-
 }
 
 #buttonLook{
@@ -31,6 +42,16 @@
     float: left;
     margin-right: 20px;
     margin-bottom: 30px;
+    -moz-border-radius:  10px; /* Firefox */
+    -webkit-border-radius:  10px; /* Safari 4 */
+    border-radius:  10px; /* IE 9, Safari 5, Chrome */
+}
+#buttonLook:hover{
+    background-color: #2059ff;
+}
+
+.textHoverGrey:hover{
+    background-color: #878eee;
 }
 
 #Cont{
@@ -55,23 +76,23 @@
     color: #b2b2b2;
 }
 
-
 td {
     font-size: 16px;
     width:  110px;
-
-
 }
 
-/* не отрабатывает
-tr:first-child{
+.clear{
+    clear: both;
+}
+
+td:first-child{
     font-size: 12px;
 }
-*/
+
 .addCont{
     border-top: 1px dashed #b2b2b2;
     height: 40px;
-    clear: both;
+
 }
 
 h1,h3,h4,table{
@@ -80,22 +101,23 @@ h1,h3,h4,table{
 
 h1,h3,h4{
     float: left;
+    margin-top: 0;
 }
 
 .penImg{
-    clear: both;
-    margin-left: 0;
+    margin-left: 5px;
+    margin-top: -0.1em;
 }
 
 #inLink{
     float: left;
     height: 100%;
-    margin-top: 12px;
+    margin-top: 0.6em;
 }
 #inLink a{
     text-decoration: none;
-
     margin-left: 20px;
+    font-size: 12px;
 }
 
 #ConInf{
@@ -110,3 +132,51 @@ h1,h3,h4{
     margin-bottom: 0;
     margin-top: 12px;
 }
+
+#Education, #Experience {
+    padding: 40px 0 20px 0;
+    width: 68%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #aaa4aa;
+    box-sizing: border-box;
+}
+
+li{
+    margin: 10px 0;
+}
+
+li p{
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+#LAN_Service_Exp, #TPK_Exp{
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Проблемы
+*
+*
+*
+**/
