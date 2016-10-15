@@ -14,6 +14,7 @@ body {
     width: 30%;
     background-color: #ffffff;
     height: 700px;
+    border: 1px solid #aaa4aa
 }
 
 .contacts{
@@ -21,6 +22,7 @@ body {
     border: 1px solid #aaa4aa;
     position: relative;
     background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 .contacts > img{
@@ -42,12 +44,16 @@ body {
     float: left;
     margin-right: 20px;
     margin-bottom: 30px;
-    -moz-border-radius:  10px; /* Firefox */
-    -webkit-border-radius:  10px; /* Safari 4 */
-    border-radius:  10px; /* IE 9, Safari 5, Chrome */
+    -moz-border-radius:  5px; /* Firefox */
+    -webkit-border-radius:  5px; /* Safari 4 */
+    border-radius:  5px; /* IE 9, Safari 5, Chrome */
 }
 #buttonLook:hover{
     background-color: #2059ff;
+}
+
+#buttonLook:focus {
+    outline: none;
 }
 
 .textHoverGrey:hover{
@@ -120,6 +126,10 @@ h1,h3,h4{
     font-size: 12px;
 }
 
+a:visited{
+    color: black;
+}
+
 #ConInf{
     width: 230px;
     background-color: #aaa4aa;
@@ -144,6 +154,7 @@ h1,h3,h4{
 
 li{
     margin: 10px 0;
+    list-style-type: none;
 }
 
 li p{
@@ -160,10 +171,25 @@ h2 {
 
 }
 
+#LAN_Service_Exp > p, #TPK_Exp > p{
+    margin: 0;
+}
 
+.work_duty{
+    -webkit-padding-start: 5px;
+    margin-bottom: 5px;
+    -webkit-margin-before: 0.2em;
+}
 
+.work_duty > li{
+    margin: 0;
+    font-size: 12px;
+}
 
-
+#LAN_Service_Exp > img, #TPK_Exp > img{
+    float: right;
+    margin-right: 20px;
+}
 
 
 
@@ -176,7 +202,10 @@ h2 {
 
 
 /** Проблемы
-*
+* При нажатии на кнопку не убирается рамка кнопки стр 55
+#buttonLook:focus {
+    border-color: #ffffff;
+}
 *
 *
 **/
